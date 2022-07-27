@@ -1,5 +1,5 @@
 {
-  "name": "@cosmjs/utils",
+  "name": "@arkonjs/utils",
   "version": "0.27.0",
   "description": "Utility tools, primarily for testing code",
   "contributors": [
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/cosmjs/tree/main/packages/utils"
+    "url": "https://github.com/NLGRF/arkonjs/tree/main/packages/utils"
   },
   "publishConfig": {
     "access": "public",

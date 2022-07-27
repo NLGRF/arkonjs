@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { Coin, Pubkey } from "@cosmjs/amino";
+import { Coin, Pubkey } from "@arkonjs/amino";
 
 import { LcdClient } from "./lcdclient";
 

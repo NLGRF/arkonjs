@@ -1,7 +1,7 @@
-import { AccountData, makeCosmoshubPath, StdSignDoc } from "@cosmjs/amino";
-import { toBase64 } from "@cosmjs/encoding";
-import { Uint53 } from "@cosmjs/math";
-import { assert } from "@cosmjs/utils";
+import { AccountData, makeCosmoshubPath, StdSignDoc } from "@arkonjs/amino";
+import { toBase64 } from "@arkonjs/encoding";
+import { Uint53 } from "@arkonjs/math";
+import { assert } from "@arkonjs/utils";
 import TransportWebUSB from "@ledgerhq/hw-transport-webusb";
 
 import { LedgerSigner } from "../ledgersigner";

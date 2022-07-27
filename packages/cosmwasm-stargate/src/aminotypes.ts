@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { fromBase64, fromUtf8, toBase64, toUtf8 } from "@cosmjs/encoding";
-import { AminoConverter, Coin } from "@cosmjs/stargate";
+import { fromBase64, fromUtf8, toBase64, toUtf8 } from "@arkonjs/encoding";
+import { AminoConverter, Coin } from "@arkonjs/stargate";
 import {
   MsgClearAdmin,
   MsgExecuteContract,

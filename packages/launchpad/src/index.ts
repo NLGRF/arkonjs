@@ -32,9 +32,9 @@ export {
   StdSignature,
   StdSignDoc,
   StdTx,
-} from "@cosmjs/amino";
-import { SinglePubkey } from "@cosmjs/amino";
-/** @deprecated PubKey is deprecated. Use `SinglePubkey` or the more general `Pubkey` from `@cosmjs/amino`. */
+} from "@arkonjs/amino";
+import { SinglePubkey } from "@arkonjs/amino";
+/** @deprecated PubKey is deprecated. Use `SinglePubkey` or the more general `Pubkey` from `@arkonjs/amino`. */
 export type PubKey = SinglePubkey;
 
 import * as logs from "./logs";

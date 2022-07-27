@@ -4,9 +4,9 @@ import {
   makeCosmoshubPath,
   pubkeyToAddress,
   Secp256k1HdWallet,
-} from "@cosmjs/amino";
-import { coins } from "@cosmjs/proto-signing";
-import { assert } from "@cosmjs/utils";
+} from "@arkonjs/amino";
+import { coins } from "@arkonjs/proto-signing";
+import { assert } from "@arkonjs/utils";
 import { MsgSend } from "cosmjs-types/cosmos/bank/v1beta1/tx";
 import { TxRaw } from "cosmjs-types/cosmos/tx/v1beta1/tx";
 

@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://lgtm.com/projects/g/cosmos/cosmjs/context:javascript"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/cosmos/cosmjs.svg?logo=lgtm&logoWidth=18"/></a>
-  <a href="https://github.com/cosmos/cosmjs/blob/main/LICENSE">
+  <a href="https://github.com/NLGRF/arkonjs/blob/main/LICENSE">
     <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/cosmos/cosmjs.svg" />
   </a>
 </div>
@@ -19,9 +19,9 @@ develop in TypeScript.
 [Here is a list of examples][guided tour] using the Stargate package for use
 with [Cosmos SDK 0.41] applications (like [gaia 4]). Take a look at the wiki
 page,
-["What can CosmJS do for me?"](https://github.com/cosmos/cosmjs/wiki/What-can-CosmJS-do-for-me%3F)
+["What can CosmJS do for me?"](https://github.com/NLGRF/arkonjs/wiki/What-can-CosmJS-do-for-me%3F)
 and various tests
-([ex](https://github.com/cosmos/cosmjs/blob/main/packages/stargate/src/signingstargateclient.spec.ts))
+([ex](https://github.com/NLGRF/arkonjs/blob/main/packages/stargate/src/signingstargateclient.spec.ts))
 for more example usage of the packages.
 
 [guided tour]:
@@ -43,23 +43,23 @@ from the latest release.
 
 Documentation on how to use your own custom modules with CosmJS for Stargate
 chains (Cosmos SDK v0.41) can be found
-[here](https://github.com/cosmos/cosmjs/blob/main/packages/stargate/CUSTOM_PROTOBUF_CODECS.md).
+[here](https://github.com/NLGRF/arkonjs/blob/main/packages/stargate/CUSTOM_PROTOBUF_CODECS.md).
 
 ## Packages
 
 CosmJS is a library that consists of many smaller npm packages within the
-[@cosmjs namespace](https://www.npmjs.com/org/cosmjs), a so called monorepo.
+[@arkonjs namespace](https://www.npmjs.com/org/cosmjs), a so called monorepo.
 Here are some of them to get an idea:
 
 | Package                                                 | Description                                                                                                                                                                                                                              | Latest                                                                                                                                |
 | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| [@cosmjs/stargate](packages/stargate)                   | A client library for the Cosmos SDK 0.40 (cosmoshub-4), 0.41 and 0.42 (Stargate)                                                                                                                                                         | [![npm version](https://img.shields.io/npm/v/@cosmjs/stargate.svg)](https://www.npmjs.com/package/@cosmjs/stargate)                   |
-| [@cosmjs/launchpad](packages/launchpad)                 | A client library for the Cosmos SDK 0.37 (cosmoshub-3), 0.38 and 0.39 (Launchpad)                                                                                                                                                        | [![npm version](https://img.shields.io/npm/v/@cosmjs/launchpad.svg)](https://www.npmjs.com/package/@cosmjs/launchpad)                 |
-| [@cosmjs/faucet](packages/faucet)                       | A faucet application for node.js                                                                                                                                                                                                         | [![npm version](https://img.shields.io/npm/v/@cosmjs/faucet.svg)](https://www.npmjs.com/package/@cosmjs/faucet)                       |
-| [@cosmjs/cosmwasm-stargate](packages/cosmwasm-stargate) | Client for Stargate chains with the CosmWasm module enabled                                                                                                                                                                              | [![npm version](https://img.shields.io/npm/v/@cosmjs/cosmwasm-stargate.svg)](https://www.npmjs.com/package/@cosmjs/cosmwasm-stargate) |
-| [@cosmjs/crypto](packages/crypto)                       | Cryptography for blockchain projects, e.g. hashing (SHA-2, Keccak256, Ripemd160), signing (secp256k1, ed25519), HD key derivation (BIPO39, SLIP-0010), KDFs and symmetric encryption for key storage (PBKDF2, Argon2, XChaCha20Poly1305) | [![npm version](https://img.shields.io/npm/v/@cosmjs/crypto.svg)](https://www.npmjs.com/package/@cosmjs/crypto)                       |
-| [@cosmjs/encoding](packages/encoding)                   | Encoding helpers for blockchain projects                                                                                                                                                                                                 | [![npm version](https://img.shields.io/npm/v/@cosmjs/encoding.svg)](https://www.npmjs.com/package/@cosmjs/encoding)                   |
-| [@cosmjs/math](packages/math)                           | Safe integers; decimals for handling financial amounts                                                                                                                                                                                   | [![npm version](https://img.shields.io/npm/v/@cosmjs/math.svg)](https://www.npmjs.com/package/@cosmjs/math)                           |
+| [@arkonjs/stargate](packages/stargate)                   | A client library for the Cosmos SDK 0.40 (cosmoshub-4), 0.41 and 0.42 (Stargate)                                                                                                                                                         | [![npm version](https://img.shields.io/npm/v/@arkonjs/stargate.svg)](https://www.npmjs.com/package/@arkonjs/stargate)                   |
+| [@arkonjs/launchpad](packages/launchpad)                 | A client library for the Cosmos SDK 0.37 (cosmoshub-3), 0.38 and 0.39 (Launchpad)                                                                                                                                                        | [![npm version](https://img.shields.io/npm/v/@arkonjs/launchpad.svg)](https://www.npmjs.com/package/@arkonjs/launchpad)                 |
+| [@arkonjs/faucet](packages/faucet)                       | A faucet application for node.js                                                                                                                                                                                                         | [![npm version](https://img.shields.io/npm/v/@arkonjs/faucet.svg)](https://www.npmjs.com/package/@arkonjs/faucet)                       |
+| [@arkonjs/cosmwasm-stargate](packages/cosmwasm-stargate) | Client for Stargate chains with the CosmWasm module enabled                                                                                                                                                                              | [![npm version](https://img.shields.io/npm/v/@arkonjs/cosmwasm-stargate.svg)](https://www.npmjs.com/package/@arkonjs/cosmwasm-stargate) |
+| [@arkonjs/crypto](packages/crypto)                       | Cryptography for blockchain projects, e.g. hashing (SHA-2, Keccak256, Ripemd160), signing (secp256k1, ed25519), HD key derivation (BIPO39, SLIP-0010), KDFs and symmetric encryption for key storage (PBKDF2, Argon2, XChaCha20Poly1305) | [![npm version](https://img.shields.io/npm/v/@arkonjs/crypto.svg)](https://www.npmjs.com/package/@arkonjs/crypto)                       |
+| [@arkonjs/encoding](packages/encoding)                   | Encoding helpers for blockchain projects                                                                                                                                                                                                 | [![npm version](https://img.shields.io/npm/v/@arkonjs/encoding.svg)](https://www.npmjs.com/package/@arkonjs/encoding)                   |
+| [@arkonjs/math](packages/math)                           | Safe integers; decimals for handling financial amounts                                                                                                                                                                                   | [![npm version](https://img.shields.io/npm/v/@arkonjs/math.svg)](https://www.npmjs.com/package/@arkonjs/math)                           |
 
 ### Modularity
 
@@ -76,7 +76,7 @@ runtime dependencies: [cosmjs-tree-full.png](docs/cosmjs-tree-full.png).
 <!--
 Build with depsight (https://github.com/webmaster128/depsight), using:
 
-from_npm . | depsight --include "^@cosmjs" --format png --dpi 150 --output docs/cosmjs-tree.png
+from_npm . | depsight --include "^@arkonjs" --format png --dpi 150 --output docs/cosmjs-tree.png
 from_npm . | depsight --exclude cosmjs-monorepo-root --format png --dpi 150 --output docs/cosmjs-tree-full.png
 optipng docs/cosmjs-tree*.png
 -->
@@ -100,7 +100,7 @@ can work on a solution with swapable implementations.
 ## Roadmap
 
 We maintain a [development board](https://github.com/orgs/cosmos/projects/6),
-use [release milestones](https://github.com/cosmos/cosmjs/milestones) and share
+use [release milestones](https://github.com/NLGRF/arkonjs/milestones) and share
 important updates in the [CosmWasm Community Call]. For higher level roadmap
 discussion please reach out to the team.
 
@@ -117,14 +117,14 @@ discussion please reach out to the team.
    not stable. Unverified queries can be used instead. Those queries are
    deprecated now and will be removed in 0.27 ([#910]).
 
-[#910]: https://github.com/cosmos/cosmjs/pull/910
+[#910]: https://github.com/NLGRF/arkonjs/pull/910
 
 ### 0.25
 
 1. Decoding blocks of height 1 is unsupported. This is fixed in [#815] and will
    be released as part of CosmJS 0.26.
 
-[#815]: https://github.com/cosmos/cosmjs/pull/815
+[#815]: https://github.com/NLGRF/arkonjs/pull/815
 
 ### 0.24
 
@@ -138,7 +138,7 @@ discussion please reach out to the team.
 The CosmJS development team is happy to get in touch with you for all questions
 and suggestions.
 
-- [GitHub issues](https://github.com/cosmos/cosmjs/issues) for bugs and feature
+- [GitHub issues](https://github.com/NLGRF/arkonjs/issues) for bugs and feature
   requests
 - The #cosmjs channel on the
   ["Cosmos Community" Discord server](https://discord.gg/vcExX9T) for questions

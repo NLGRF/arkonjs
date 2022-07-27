@@ -1,4 +1,4 @@
-import { fromHex, toHex } from "@cosmjs/encoding";
+import { fromHex, toHex } from "@arkonjs/encoding";
 import * as bip39 from "bip39";
 
 import { EnglishMnemonic } from "./englishmnemonic";

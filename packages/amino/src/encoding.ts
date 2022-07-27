@@ -1,6 +1,6 @@
-import { Bech32, fromBase64, fromHex, toBase64, toHex } from "@cosmjs/encoding";
-import { Uint53 } from "@cosmjs/math";
-import { arrayContentStartsWith } from "@cosmjs/utils";
+import { Bech32, fromBase64, fromHex, toBase64, toHex } from "@arkonjs/encoding";
+import { Uint53 } from "@arkonjs/math";
+import { arrayContentStartsWith } from "@arkonjs/utils";
 
 import {
   isEd25519Pubkey,

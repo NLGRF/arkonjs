@@ -1,6 +1,6 @@
-# @cosmjs/faucet
+# @arkonjs/faucet
 
-[![npm version](https://img.shields.io/npm/v/@cosmjs/faucet.svg)](https://www.npmjs.com/package/@cosmjs/faucet)
+[![npm version](https://img.shields.io/npm/v/@arkonjs/faucet.svg)](https://www.npmjs.com/package/@arkonjs/faucet)
 
 The faucet is built as part of the monorepo. In the repo root do:
 
@@ -143,5 +143,5 @@ curl http://localhost:8000/status
 ## License
 
 This package is part of the cosmjs repository, licensed under the Apache License
-2.0 (see [NOTICE](https://github.com/cosmos/cosmjs/blob/main/NOTICE) and
-[LICENSE](https://github.com/cosmos/cosmjs/blob/main/LICENSE)).
+2.0 (see [NOTICE](https://github.com/NLGRF/arkonjs/blob/main/NOTICE) and
+[LICENSE](https://github.com/NLGRF/arkonjs/blob/main/LICENSE)).

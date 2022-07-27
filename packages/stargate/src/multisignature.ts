@@ -1,6 +1,6 @@
-import { MultisigThresholdPubkey, pubkeyToAddress, StdFee } from "@cosmjs/amino";
-import { Bech32 } from "@cosmjs/encoding";
-import { encodePubkey } from "@cosmjs/proto-signing";
+import { MultisigThresholdPubkey, pubkeyToAddress, StdFee } from "@arkonjs/amino";
+import { Bech32 } from "@arkonjs/encoding";
+import { encodePubkey } from "@arkonjs/proto-signing";
 import { CompactBitArray, MultiSignature } from "cosmjs-types/cosmos/crypto/multisig/v1beta1/multisig";
 import { SignMode } from "cosmjs-types/cosmos/tx/signing/v1beta1/signing";
 import { AuthInfo, SignerInfo } from "cosmjs-types/cosmos/tx/v1beta1/tx";

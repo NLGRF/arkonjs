@@ -1,5 +1,5 @@
-import { CosmosClient } from "@cosmjs/launchpad";
-import { StargateClient } from "@cosmjs/stargate";
+import { CosmosClient } from "@arkonjs/launchpad";
+import { StargateClient } from "@arkonjs/stargate";
 
 import { Webserver } from "../api/webserver";
 import * as constants from "../constants";

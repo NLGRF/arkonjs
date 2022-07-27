@@ -1,4 +1,4 @@
-import { Uint53, Uint64 } from "@cosmjs/math";
+import { Uint53, Uint64 } from "@arkonjs/math";
 
 export interface Coin {
   readonly denom: string;
@@ -49,9 +49,9 @@ export function coins(amount: number | string, denom: string): Coin[] {
  * A Stargate-ready variant of this function is available via:
  *
  * ```
- * import { parseCoins } from "@cosmjs/proto-signing";
+ * import { parseCoins } from "@arkonjs/proto-signing";
  * // or
- * import { parseCoins } from "@cosmjs/stargate";
+ * import { parseCoins } from "@arkonjs/stargate";
  * ```
  */
 export function parseCoins(input: string): Coin[] {

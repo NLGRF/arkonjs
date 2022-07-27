@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { coin, coins, makeSignDoc, makeStdTx, Secp256k1HdWallet } from "@cosmjs/amino";
-import { Bech32 } from "@cosmjs/encoding";
-import { sleep } from "@cosmjs/utils";
+import { coin, coins, makeSignDoc, makeStdTx, Secp256k1HdWallet } from "@arkonjs/amino";
+import { Bech32 } from "@arkonjs/encoding";
+import { sleep } from "@arkonjs/utils";
 
 import { assertIsBroadcastTxSuccess } from "../cosmosclient";
 import { MsgDelegate } from "../msgs";

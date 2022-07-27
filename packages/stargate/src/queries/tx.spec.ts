@@ -1,6 +1,6 @@
-import { coin, coins, DirectSecp256k1HdWallet, Registry } from "@cosmjs/proto-signing";
-import { Tendermint34Client } from "@cosmjs/tendermint-rpc";
-import { assertDefined, sleep } from "@cosmjs/utils";
+import { coin, coins, DirectSecp256k1HdWallet, Registry } from "@arkonjs/proto-signing";
+import { Tendermint34Client } from "@arkonjs/tendermint-rpc";
+import { assertDefined, sleep } from "@arkonjs/utils";
 import { MsgDelegate } from "cosmjs-types/cosmos/staking/v1beta1/tx";
 import Long from "long";
 

@@ -1,7 +1,7 @@
-import { makeCosmoshubPath } from "@cosmjs/amino";
-import { HdPath, Secp256k1Signature } from "@cosmjs/crypto";
-import { fromUtf8 } from "@cosmjs/encoding";
-import { assert } from "@cosmjs/utils";
+import { makeCosmoshubPath } from "@arkonjs/amino";
+import { HdPath, Secp256k1Signature } from "@arkonjs/crypto";
+import { fromUtf8 } from "@arkonjs/encoding";
+import { assert } from "@arkonjs/utils";
 import Transport from "@ledgerhq/hw-transport";
 import CosmosApp, {
   AppInfoResponse,

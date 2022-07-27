@@ -1,5 +1,5 @@
 {
-  "name": "@cosmjs/tendermint-rpc",
+  "name": "@arkonjs/tendermint-rpc",
   "version": "0.27.0",
   "description": "Tendermint RPC clients",
   "contributors": [
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/cosmjs/tree/main/packages/tendermint-rpc"
+    "url": "https://github.com/NLGRF/arkonjs/tree/main/packages/tendermint-rpc"
   },
   "publishConfig": {
     "access": "public",
@@ -42,18 +42,18 @@
     "pack-web": "yarn build-or-skip && webpack --mode development --config webpack.web.config.js"
   },
   "dependencies": {
-    "@cosmjs/crypto": "workspace:packages/crypto",
-    "@cosmjs/encoding": "workspace:packages/encoding",
-    "@cosmjs/json-rpc": "workspace:packages/json-rpc",
-    "@cosmjs/math": "workspace:packages/math",
-    "@cosmjs/socket": "workspace:packages/socket",
-    "@cosmjs/stream": "workspace:packages/stream",
+    "@arkonjs/crypto": "workspace:packages/crypto",
+    "@arkonjs/encoding": "workspace:packages/encoding",
+    "@arkonjs/json-rpc": "workspace:packages/json-rpc",
+    "@arkonjs/math": "workspace:packages/math",
+    "@arkonjs/socket": "workspace:packages/socket",
+    "@arkonjs/stream": "workspace:packages/stream",
     "axios": "^0.21.2",
     "readonly-date": "^1.0.0",
     "xstream": "^11.14.0"
   },
   "devDependencies": {
-    "@cosmjs/utils": "workspace:packages/utils",
+    "@arkonjs/utils": "workspace:packages/utils",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/eslint-plugin-prettier": "^3",
     "@types/jasmine": "^3.8",

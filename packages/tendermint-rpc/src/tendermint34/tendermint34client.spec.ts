@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { toAscii } from "@cosmjs/encoding";
-import { firstEvent, toListPromise } from "@cosmjs/stream";
-import { sleep } from "@cosmjs/utils";
+import { toAscii } from "@arkonjs/encoding";
+import { firstEvent, toListPromise } from "@arkonjs/stream";
+import { sleep } from "@arkonjs/utils";
 import { ReadonlyDate } from "readonly-date";
 import { Stream } from "xstream";
 

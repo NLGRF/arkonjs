@@ -1,16 +1,16 @@
 #!/usr/bin/env -S yarn node
 
 /* eslint-disable @typescript-eslint/naming-convention */
-const { coins } = require("@cosmjs/amino");
-const { Random } = require("@cosmjs/crypto");
-const { Bech32 } = require("@cosmjs/encoding");
-const { DirectSecp256k1HdWallet } = require("@cosmjs/proto-signing");
+const { coins } = require("@arkonjs/amino");
+const { Random } = require("@arkonjs/crypto");
+const { Bech32 } = require("@arkonjs/encoding");
+const { DirectSecp256k1HdWallet } = require("@arkonjs/proto-signing");
 const {
   assertIsDeliverTxSuccess,
   SigningStargateClient,
   calculateFee,
   GasPrice,
-} = require("@cosmjs/stargate");
+} = require("@arkonjs/stargate");
 
 const rpcUrl = "http://localhost:26659";
 const prefix = "wasm";

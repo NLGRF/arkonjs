@@ -1,5 +1,5 @@
 {
-  "name": "@cosmjs/launchpad",
+  "name": "@arkonjs/launchpad",
   "version": "0.27.0",
   "description": "A client library for the Cosmos SDK 0.37 (cosmoshub-3), 0.38 and 0.39 (Launchpad)",
   "contributors": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/cosmjs/tree/main/packages/launchpad"
+    "url": "https://github.com/NLGRF/arkonjs/tree/main/packages/launchpad"
   },
   "publishConfig": {
     "access": "public",
@@ -39,11 +39,11 @@
     "pack-web": "yarn build-or-skip && webpack --mode development --config webpack.web.config.js"
   },
   "dependencies": {
-    "@cosmjs/amino": "workspace:packages/amino",
-    "@cosmjs/crypto": "workspace:packages/crypto",
-    "@cosmjs/encoding": "workspace:packages/encoding",
-    "@cosmjs/math": "workspace:packages/math",
-    "@cosmjs/utils": "workspace:packages/utils",
+    "@arkonjs/amino": "workspace:packages/amino",
+    "@arkonjs/crypto": "workspace:packages/crypto",
+    "@arkonjs/encoding": "workspace:packages/encoding",
+    "@arkonjs/math": "workspace:packages/math",
+    "@arkonjs/utils": "workspace:packages/utils",
     "axios": "^0.21.2",
     "fast-deep-equal": "^3.1.3"
   },

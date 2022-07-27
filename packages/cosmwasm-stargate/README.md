@@ -1,12 +1,12 @@
-# @cosmjs/cosmwasm-stargate
+# @arkonjs/cosmwasm-stargate
 
-[![npm version](https://img.shields.io/npm/v/@cosmjs/cosmwasm-stargate.svg)](https://www.npmjs.com/package/@cosmjs/cosmwasm-stargate)
+[![npm version](https://img.shields.io/npm/v/@arkonjs/cosmwasm-stargate.svg)](https://www.npmjs.com/package/@arkonjs/cosmwasm-stargate)
 
 An SDK to build CosmWasm clients.
 
 ## Compatibility
 
-| CosmWasm        | x/wasm    | @cosmjs/cosmwasm-stargate |
+| CosmWasm        | x/wasm    | @arkonjs/cosmwasm-stargate |
 | --------------- | --------- | ------------------------- |
 | 0.16-1.0.0-beta | 0.21      | `^0.27.0`                 |
 | 0.16-1.0.0-beta | 0.18-0.20 | `^0.26.0`                 |
@@ -26,5 +26,5 @@ echo "{\"// source\": \"$HACKATOM_URL\", \"data\": \"$(curl -sS  --location $HAC
 ## License
 
 This package is part of the cosmjs repository, licensed under the Apache License
-2.0 (see [NOTICE](https://github.com/cosmos/cosmjs/blob/main/NOTICE) and
-[LICENSE](https://github.com/cosmos/cosmjs/blob/main/LICENSE)).
+2.0 (see [NOTICE](https://github.com/NLGRF/arkonjs/blob/main/NOTICE) and
+[LICENSE](https://github.com/NLGRF/arkonjs/blob/main/LICENSE)).

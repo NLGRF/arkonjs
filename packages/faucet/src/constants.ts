@@ -1,4 +1,4 @@
-import { CosmosFeeTable, GasLimits, GasPrice } from "@cosmjs/launchpad";
+import { CosmosFeeTable, GasLimits, GasPrice } from "@arkonjs/launchpad";
 
 import { TokenConfiguration } from "./tokenmanager";
 import { parseBankTokens } from "./tokens";

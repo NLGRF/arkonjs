@@ -1,4 +1,4 @@
-import { fromAscii, fromBase64, fromHex } from "@cosmjs/encoding";
+import { fromAscii, fromBase64, fromHex } from "@arkonjs/encoding";
 
 import { EnglishMnemonic } from "./englishmnemonic";
 import { sha256 } from "./sha";

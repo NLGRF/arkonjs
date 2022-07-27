@@ -1,4 +1,4 @@
-import { Decimal } from "@cosmjs/math";
+import { Decimal } from "@arkonjs/math";
 
 import { GasPrice } from "./fee";
 

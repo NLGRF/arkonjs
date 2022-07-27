@@ -1,4 +1,4 @@
-import { Tendermint34Client } from "@cosmjs/tendermint-rpc";
+import { Tendermint34Client } from "@arkonjs/tendermint-rpc";
 
 import {
   nonExistentAddress,

@@ -1,4 +1,4 @@
-import { isStdTx, StdTx } from "@cosmjs/amino";
+import { isStdTx, StdTx } from "@arkonjs/amino";
 
 /**
  * An Amino JSON wrapper around the Tx interface

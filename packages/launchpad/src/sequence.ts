@@ -1,5 +1,5 @@
-import { decodeSignature, makeSignDoc, serializeSignDoc } from "@cosmjs/amino";
-import { Secp256k1, Secp256k1Signature, sha256 } from "@cosmjs/crypto";
+import { decodeSignature, makeSignDoc, serializeSignDoc } from "@arkonjs/amino";
+import { Secp256k1, Secp256k1Signature, sha256 } from "@arkonjs/crypto";
 
 import { WrappedStdTx } from "./tx";
 

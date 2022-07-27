@@ -23,94 +23,94 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:."
       },
       {
-        "name": "@cosmjs/amino",
+        "name": "@arkonjs/amino",
         "reference": "workspace:packages/amino"
       },
       {
-        "name": "@cosmjs/cli",
+        "name": "@arkonjs/cli",
         "reference": "workspace:packages/cli"
       },
       {
-        "name": "@cosmjs/cosmwasm-stargate",
+        "name": "@arkonjs/cosmwasm-stargate",
         "reference": "workspace:packages/cosmwasm-stargate"
       },
       {
-        "name": "@cosmjs/crypto",
+        "name": "@arkonjs/crypto",
         "reference": "workspace:packages/crypto"
       },
       {
-        "name": "@cosmjs/encoding",
+        "name": "@arkonjs/encoding",
         "reference": "workspace:packages/encoding"
       },
       {
-        "name": "@cosmjs/faucet",
+        "name": "@arkonjs/faucet",
         "reference": "workspace:packages/faucet"
       },
       {
-        "name": "@cosmjs/faucet-client",
+        "name": "@arkonjs/faucet-client",
         "reference": "workspace:packages/faucet-client"
       },
       {
-        "name": "@cosmjs/json-rpc",
+        "name": "@arkonjs/json-rpc",
         "reference": "workspace:packages/json-rpc"
       },
       {
-        "name": "@cosmjs/launchpad",
+        "name": "@arkonjs/launchpad",
         "reference": "workspace:packages/launchpad"
       },
       {
-        "name": "@cosmjs/ledger-amino",
+        "name": "@arkonjs/ledger-amino",
         "reference": "workspace:packages/ledger-amino"
       },
       {
-        "name": "@cosmjs/math",
+        "name": "@arkonjs/math",
         "reference": "workspace:packages/math"
       },
       {
-        "name": "@cosmjs/proto-signing",
+        "name": "@arkonjs/proto-signing",
         "reference": "workspace:packages/proto-signing"
       },
       {
-        "name": "@cosmjs/socket",
+        "name": "@arkonjs/socket",
         "reference": "workspace:packages/socket"
       },
       {
-        "name": "@cosmjs/stargate",
+        "name": "@arkonjs/stargate",
         "reference": "workspace:packages/stargate"
       },
       {
-        "name": "@cosmjs/stream",
+        "name": "@arkonjs/stream",
         "reference": "workspace:packages/stream"
       },
       {
-        "name": "@cosmjs/tendermint-rpc",
+        "name": "@arkonjs/tendermint-rpc",
         "reference": "workspace:packages/tendermint-rpc"
       },
       {
-        "name": "@cosmjs/utils",
+        "name": "@arkonjs/utils",
         "reference": "workspace:packages/utils"
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["@cosmjs/amino", ["workspace:packages/amino"]],
-      ["@cosmjs/cli", ["workspace:packages/cli"]],
-      ["@cosmjs/cosmwasm-stargate", ["workspace:packages/cosmwasm-stargate"]],
-      ["@cosmjs/crypto", ["workspace:packages/crypto"]],
-      ["@cosmjs/encoding", ["workspace:packages/encoding"]],
-      ["@cosmjs/faucet", ["workspace:packages/faucet"]],
-      ["@cosmjs/faucet-client", ["workspace:packages/faucet-client"]],
-      ["@cosmjs/json-rpc", ["workspace:packages/json-rpc"]],
-      ["@cosmjs/launchpad", ["workspace:packages/launchpad"]],
-      ["@cosmjs/ledger-amino", ["workspace:packages/ledger-amino"]],
-      ["@cosmjs/math", ["workspace:packages/math"]],
-      ["@cosmjs/proto-signing", ["workspace:packages/proto-signing"]],
-      ["@cosmjs/socket", ["workspace:packages/socket"]],
-      ["@cosmjs/stargate", ["workspace:packages/stargate"]],
-      ["@cosmjs/stream", ["workspace:packages/stream"]],
-      ["@cosmjs/tendermint-rpc", ["workspace:packages/tendermint-rpc"]],
-      ["@cosmjs/utils", ["workspace:packages/utils"]],
+      ["@arkonjs/amino", ["workspace:packages/amino"]],
+      ["@arkonjs/cli", ["workspace:packages/cli"]],
+      ["@arkonjs/cosmwasm-stargate", ["workspace:packages/cosmwasm-stargate"]],
+      ["@arkonjs/crypto", ["workspace:packages/crypto"]],
+      ["@arkonjs/encoding", ["workspace:packages/encoding"]],
+      ["@arkonjs/faucet", ["workspace:packages/faucet"]],
+      ["@arkonjs/faucet-client", ["workspace:packages/faucet-client"]],
+      ["@arkonjs/json-rpc", ["workspace:packages/json-rpc"]],
+      ["@arkonjs/launchpad", ["workspace:packages/launchpad"]],
+      ["@arkonjs/ledger-amino", ["workspace:packages/ledger-amino"]],
+      ["@arkonjs/math", ["workspace:packages/math"]],
+      ["@arkonjs/proto-signing", ["workspace:packages/proto-signing"]],
+      ["@arkonjs/socket", ["workspace:packages/socket"]],
+      ["@arkonjs/stargate", ["workspace:packages/stargate"]],
+      ["@arkonjs/stream", ["workspace:packages/stream"]],
+      ["@arkonjs/tendermint-rpc", ["workspace:packages/tendermint-rpc"]],
+      ["@arkonjs/utils", ["workspace:packages/utils"]],
       ["cosmjs-monorepo-root", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -223,71 +223,71 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:0.6.5"
       ],
       [
-        "@cosmjs/amino",
+        "@arkonjs/amino",
         "workspace:packages/amino"
       ],
       [
-        "@cosmjs/cli",
+        "@arkonjs/cli",
         "workspace:packages/cli"
       ],
       [
-        "@cosmjs/cosmwasm-stargate",
+        "@arkonjs/cosmwasm-stargate",
         "workspace:packages/cosmwasm-stargate"
       ],
       [
-        "@cosmjs/crypto",
+        "@arkonjs/crypto",
         "workspace:packages/crypto"
       ],
       [
-        "@cosmjs/encoding",
+        "@arkonjs/encoding",
         "workspace:packages/encoding"
       ],
       [
-        "@cosmjs/faucet",
+        "@arkonjs/faucet",
         "workspace:packages/faucet"
       ],
       [
-        "@cosmjs/faucet-client",
+        "@arkonjs/faucet-client",
         "workspace:packages/faucet-client"
       ],
       [
-        "@cosmjs/json-rpc",
+        "@arkonjs/json-rpc",
         "workspace:packages/json-rpc"
       ],
       [
-        "@cosmjs/launchpad",
+        "@arkonjs/launchpad",
         "workspace:packages/launchpad"
       ],
       [
-        "@cosmjs/ledger-amino",
+        "@arkonjs/ledger-amino",
         "workspace:packages/ledger-amino"
       ],
       [
-        "@cosmjs/math",
+        "@arkonjs/math",
         "workspace:packages/math"
       ],
       [
-        "@cosmjs/proto-signing",
+        "@arkonjs/proto-signing",
         "workspace:packages/proto-signing"
       ],
       [
-        "@cosmjs/socket",
+        "@arkonjs/socket",
         "workspace:packages/socket"
       ],
       [
-        "@cosmjs/stargate",
+        "@arkonjs/stargate",
         "workspace:packages/stargate"
       ],
       [
-        "@cosmjs/stream",
+        "@arkonjs/stream",
         "workspace:packages/stream"
       ],
       [
-        "@cosmjs/tendermint-rpc",
+        "@arkonjs/tendermint-rpc",
         "workspace:packages/tendermint-rpc"
       ],
       [
-        "@cosmjs/utils",
+        "@arkonjs/utils",
         "workspace:packages/utils"
       ],
       [
@@ -2860,13 +2860,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/launchpad", "workspace:packages/launchpad"],
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/launchpad", "workspace:packages/launchpad"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
             ["eslint", "npm:7.26.0"],
             ["prettier", "npm:2.4.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]
@@ -3207,15 +3207,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["@cosmjs/amino", [
+      ["@arkonjs/amino", [
         ["workspace:packages/amino", {
           "packageLocation": "./packages/amino/",
           "packageDependencies": [
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3254,22 +3254,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/cli", [
+      ["@arkonjs/cli", [
         ["workspace:packages/cli", {
           "packageLocation": "./packages/cli/",
           "packageDependencies": [
-            ["@cosmjs/cli", "workspace:packages/cli"],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/faucet-client", "workspace:packages/faucet-client"],
-            ["@cosmjs/launchpad", "workspace:packages/launchpad"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
-            ["@cosmjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/cli", "workspace:packages/cli"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/faucet-client", "workspace:packages/faucet-client"],
+            ["@arkonjs/launchpad", "workspace:packages/launchpad"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/babylon", "npm:6.16.5"],
             ["@types/diff", "npm:4.0.2"],
@@ -3304,19 +3304,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/cosmwasm-stargate", [
+      ["@arkonjs/cosmwasm-stargate", [
         ["workspace:packages/cosmwasm-stargate", {
           "packageLocation": "./packages/cosmwasm-stargate/",
           "packageDependencies": [
-            ["@cosmjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
-            ["@cosmjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3363,14 +3363,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/crypto", [
+      ["@arkonjs/crypto", [
         ["workspace:packages/crypto", {
           "packageLocation": "./packages/crypto/",
           "packageDependencies": [
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/bn.js", "npm:5.1.0"],
             ["@types/elliptic", "npm:6.4.12"],
@@ -3423,11 +3423,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/encoding", [
+      ["@arkonjs/encoding", [
         ["workspace:packages/encoding", {
           "packageLocation": "./packages/encoding/",
           "packageDependencies": [
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/base64-js", "npm:1.3.0"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
@@ -3470,18 +3470,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/faucet", [
+      ["@arkonjs/faucet", [
         ["workspace:packages/faucet", {
           "packageLocation": "./packages/faucet/",
           "packageDependencies": [
-            ["@cosmjs/faucet", "workspace:packages/faucet"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/launchpad", "workspace:packages/launchpad"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/faucet", "workspace:packages/faucet"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/launchpad", "workspace:packages/launchpad"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@koa/cors", "npm:3.1.0"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
@@ -3512,11 +3512,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/faucet-client", [
+      ["@arkonjs/faucet-client", [
         ["workspace:packages/faucet-client", {
           "packageLocation": "./packages/faucet-client/",
           "packageDependencies": [
-            ["@cosmjs/faucet-client", "workspace:packages/faucet-client"],
+            ["@arkonjs/faucet-client", "workspace:packages/faucet-client"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3556,12 +3556,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/json-rpc", [
+      ["@arkonjs/json-rpc", [
         ["workspace:packages/json-rpc", {
           "packageLocation": "./packages/json-rpc/",
           "packageDependencies": [
-            ["@cosmjs/json-rpc", "workspace:packages/json-rpc"],
-            ["@cosmjs/stream", "workspace:packages/stream"],
+            ["@arkonjs/json-rpc", "workspace:packages/json-rpc"],
+            ["@arkonjs/stream", "workspace:packages/stream"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3600,16 +3600,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/launchpad", [
+      ["@arkonjs/launchpad", [
         ["workspace:packages/launchpad", {
           "packageLocation": "./packages/launchpad/",
           "packageDependencies": [
-            ["@cosmjs/launchpad", "workspace:packages/launchpad"],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/launchpad", "workspace:packages/launchpad"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3652,18 +3652,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/ledger-amino", [
+      ["@arkonjs/ledger-amino", [
         ["workspace:packages/ledger-amino", {
           "packageLocation": "./packages/ledger-amino/",
           "packageDependencies": [
-            ["@cosmjs/ledger-amino", "workspace:packages/ledger-amino"],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/launchpad", "workspace:packages/launchpad"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/ledger-amino", "workspace:packages/ledger-amino"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/launchpad", "workspace:packages/launchpad"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@ledgerhq/hw-transport", "npm:5.51.1"],
             ["@ledgerhq/hw-transport-node-hid", "npm:5.51.1"],
@@ -3701,11 +3701,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/math", [
+      ["@arkonjs/math", [
         ["workspace:packages/math", {
           "packageLocation": "./packages/math/",
           "packageDependencies": [
-            ["@cosmjs/math", "workspace:packages/math"],
+            ["@arkonjs/math", "workspace:packages/math"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/bn.js", "npm:5.1.0"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
@@ -3746,16 +3746,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/proto-signing", [
+      ["@arkonjs/proto-signing", [
         ["workspace:packages/proto-signing", {
           "packageLocation": "./packages/proto-signing/",
           "packageDependencies": [
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3799,12 +3799,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/socket", [
+      ["@arkonjs/socket", [
         ["workspace:packages/socket", {
           "packageLocation": "./packages/socket/",
           "packageDependencies": [
-            ["@cosmjs/socket", "workspace:packages/socket"],
-            ["@cosmjs/stream", "workspace:packages/stream"],
+            ["@arkonjs/socket", "workspace:packages/socket"],
+            ["@arkonjs/stream", "workspace:packages/stream"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3846,20 +3846,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/stargate", [
+      ["@arkonjs/stargate", [
         ["workspace:packages/stargate", {
           "packageLocation": "./packages/stargate/",
           "packageDependencies": [
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
             ["@confio/ics23", "npm:0.6.5"],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/stream", "workspace:packages/stream"],
-            ["@cosmjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/stream", "workspace:packages/stream"],
+            ["@arkonjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3905,11 +3905,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/stream", [
+      ["@arkonjs/stream", [
         ["workspace:packages/stream", {
           "packageLocation": "./packages/stream/",
           "packageDependencies": [
-            ["@cosmjs/stream", "workspace:packages/stream"],
+            ["@arkonjs/stream", "workspace:packages/stream"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -3949,18 +3949,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/tendermint-rpc", [
+      ["@arkonjs/tendermint-rpc", [
         ["workspace:packages/tendermint-rpc", {
           "packageLocation": "./packages/tendermint-rpc/",
           "packageDependencies": [
-            ["@cosmjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/json-rpc", "workspace:packages/json-rpc"],
-            ["@cosmjs/math", "workspace:packages/math"],
-            ["@cosmjs/socket", "workspace:packages/socket"],
-            ["@cosmjs/stream", "workspace:packages/stream"],
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/tendermint-rpc", "workspace:packages/tendermint-rpc"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/json-rpc", "workspace:packages/json-rpc"],
+            ["@arkonjs/math", "workspace:packages/math"],
+            ["@arkonjs/socket", "workspace:packages/socket"],
+            ["@arkonjs/stream", "workspace:packages/stream"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -4002,11 +4002,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@cosmjs/utils", [
+      ["@arkonjs/utils", [
         ["workspace:packages/utils", {
           "packageLocation": "./packages/utils/",
           "packageDependencies": [
-            ["@cosmjs/utils", "workspace:packages/utils"],
+            ["@arkonjs/utils", "workspace:packages/utils"],
             ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],
             ["@types/eslint-plugin-prettier", "npm:3.1.0"],
             ["@types/jasmine", "npm:3.8.1"],
@@ -7018,13 +7018,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["cosmjs-monorepo-root", "workspace:."],
-            ["@cosmjs/amino", "workspace:packages/amino"],
-            ["@cosmjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
-            ["@cosmjs/crypto", "workspace:packages/crypto"],
-            ["@cosmjs/encoding", "workspace:packages/encoding"],
-            ["@cosmjs/launchpad", "workspace:packages/launchpad"],
-            ["@cosmjs/proto-signing", "workspace:packages/proto-signing"],
-            ["@cosmjs/stargate", "workspace:packages/stargate"],
+            ["@arkonjs/amino", "workspace:packages/amino"],
+            ["@arkonjs/cosmwasm-stargate", "workspace:packages/cosmwasm-stargate"],
+            ["@arkonjs/crypto", "workspace:packages/crypto"],
+            ["@arkonjs/encoding", "workspace:packages/encoding"],
+            ["@arkonjs/launchpad", "workspace:packages/launchpad"],
+            ["@arkonjs/proto-signing", "workspace:packages/proto-signing"],
+            ["@arkonjs/stargate", "workspace:packages/stargate"],
             ["eslint", "npm:7.26.0"],
             ["prettier", "npm:2.4.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]

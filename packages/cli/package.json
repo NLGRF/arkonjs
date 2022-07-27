@@ -1,5 +1,5 @@
 {
-  "name": "@cosmjs/cli",
+  "name": "@arkonjs/cli",
   "version": "0.27.0",
   "description": "Command line interface",
   "contributors": [
@@ -9,7 +9,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/cosmjs/tree/main/packages/cli"
+    "url": "https://github.com/NLGRF/arkonjs/tree/main/packages/cli"
   },
   "publishConfig": {
     "access": "public",
@@ -40,17 +40,17 @@
     "!**/testdata/"
   ],
   "dependencies": {
-    "@cosmjs/amino": "workspace:packages/amino",
-    "@cosmjs/cosmwasm-stargate": "workspace:packages/cosmwasm-stargate",
-    "@cosmjs/crypto": "workspace:packages/crypto",
-    "@cosmjs/encoding": "workspace:packages/encoding",
-    "@cosmjs/faucet-client": "workspace:packages/faucet-client",
-    "@cosmjs/launchpad": "workspace:packages/launchpad",
-    "@cosmjs/math": "workspace:packages/math",
-    "@cosmjs/proto-signing": "workspace:packages/proto-signing",
-    "@cosmjs/stargate": "workspace:packages/stargate",
-    "@cosmjs/tendermint-rpc": "workspace:packages/tendermint-rpc",
-    "@cosmjs/utils": "workspace:packages/utils",
+    "@arkonjs/amino": "workspace:packages/amino",
+    "@arkonjs/cosmwasm-stargate": "workspace:packages/cosmwasm-stargate",
+    "@arkonjs/crypto": "workspace:packages/crypto",
+    "@arkonjs/encoding": "workspace:packages/encoding",
+    "@arkonjs/faucet-client": "workspace:packages/faucet-client",
+    "@arkonjs/launchpad": "workspace:packages/launchpad",
+    "@arkonjs/math": "workspace:packages/math",
+    "@arkonjs/proto-signing": "workspace:packages/proto-signing",
+    "@arkonjs/stargate": "workspace:packages/stargate",
+    "@arkonjs/tendermint-rpc": "workspace:packages/tendermint-rpc",
+    "@arkonjs/utils": "workspace:packages/utils",
     "axios": "^0.21.2",
     "babylon": "^6.18.0",
     "chalk": "^4",

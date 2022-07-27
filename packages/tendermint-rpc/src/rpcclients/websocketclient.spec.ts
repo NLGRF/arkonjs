@@ -1,5 +1,5 @@
-import { Uint53 } from "@cosmjs/math";
-import { toListPromise } from "@cosmjs/stream";
+import { Uint53 } from "@arkonjs/math";
+import { toListPromise } from "@arkonjs/stream";
 import { Stream } from "xstream";
 
 import { createJsonRpcRequest } from "../jsonrpc";

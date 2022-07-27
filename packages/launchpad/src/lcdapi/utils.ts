@@ -1,5 +1,5 @@
-import { decodeBech32Pubkey, Pubkey } from "@cosmjs/amino";
-import { Uint64 } from "@cosmjs/math";
+import { decodeBech32Pubkey, Pubkey } from "@arkonjs/amino";
+import { Uint64 } from "@arkonjs/math";
 
 /**
  * Converts an integer expressed as number or string to a number.

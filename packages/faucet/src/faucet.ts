@@ -2,14 +2,14 @@ import {
   assertIsBroadcastTxSuccess as assertIsBroadcastTxSuccessLaunchpad,
   CosmosClient,
   SigningCosmosClient,
-} from "@cosmjs/launchpad";
+} from "@arkonjs/launchpad";
 import {
   assertIsDeliverTxSuccess as assertIsDeliverTxSuccessStargate,
   calculateFee,
   SigningStargateClient,
   StargateClient,
-} from "@cosmjs/stargate";
-import { sleep } from "@cosmjs/utils";
+} from "@arkonjs/stargate";
+import { sleep } from "@arkonjs/utils";
 
 import * as constants from "./constants";
 import { debugAccount, logAccountsState, logSendJob } from "./debugging";

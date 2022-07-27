@@ -1,10 +1,10 @@
-import { Coin } from "@cosmjs/amino";
-import { Uint64 } from "@cosmjs/math";
+import { Coin } from "@arkonjs/amino";
+import { Uint64 } from "@arkonjs/math";
 
 /**
  * Takes a coins list like "819966000ucosm,700000000ustake" and parses it.
  *
- * This is a Stargate ready version of parseCoins from @cosmjs/amino and @cosmjs/launchpad.
+ * This is a Stargate ready version of parseCoins from @arkonjs/amino and @arkonjs/launchpad.
  * It supports more denoms.
  */
 export function parseCoins(input: string): Coin[] {

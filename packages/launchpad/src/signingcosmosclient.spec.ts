@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { coin, coins, makeCosmoshubPath, Secp256k1HdWallet } from "@cosmjs/amino";
-import { assert } from "@cosmjs/utils";
+import { coin, coins, makeCosmoshubPath, Secp256k1HdWallet } from "@arkonjs/amino";
+import { assert } from "@arkonjs/utils";
 
 import { assertIsBroadcastTxSuccess, PrivateCosmosClient } from "./cosmosclient";
 import { GasPrice } from "./fee";

@@ -1,8 +1,8 @@
-import { Random } from "@cosmjs/crypto";
-import { Bech32 } from "@cosmjs/encoding";
-import { CosmosClient } from "@cosmjs/launchpad";
-import { makeCosmoshubPath, StargateClient } from "@cosmjs/stargate";
-import { assert } from "@cosmjs/utils";
+import { Random } from "@arkonjs/crypto";
+import { Bech32 } from "@arkonjs/encoding";
+import { CosmosClient } from "@arkonjs/launchpad";
+import { makeCosmoshubPath, StargateClient } from "@arkonjs/stargate";
+import { assert } from "@arkonjs/utils";
 
 import { Faucet } from "./faucet";
 import { TokenConfiguration } from "./tokenmanager";

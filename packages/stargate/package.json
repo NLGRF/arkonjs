@@ -1,5 +1,5 @@
 {
-  "name": "@cosmjs/stargate",
+  "name": "@arkonjs/stargate",
   "version": "0.27.0",
   "description": "Utilities for Cosmos SDK 0.40",
   "contributors": [
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmos/cosmjs/tree/main/packages/stargate"
+    "url": "https://github.com/NLGRF/arkonjs/tree/main/packages/stargate"
   },
   "publishConfig": {
     "access": "public",
@@ -39,20 +39,20 @@
   },
   "dependencies": {
     "@confio/ics23": "^0.6.3",
-    "@cosmjs/amino": "workspace:packages/amino",
-    "@cosmjs/encoding": "workspace:packages/encoding",
-    "@cosmjs/math": "workspace:packages/math",
-    "@cosmjs/proto-signing": "workspace:packages/proto-signing",
-    "@cosmjs/stream": "workspace:packages/stream",
-    "@cosmjs/tendermint-rpc": "workspace:packages/tendermint-rpc",
-    "@cosmjs/utils": "workspace:packages/utils",
+    "@arkonjs/amino": "workspace:packages/amino",
+    "@arkonjs/encoding": "workspace:packages/encoding",
+    "@arkonjs/math": "workspace:packages/math",
+    "@arkonjs/proto-signing": "workspace:packages/proto-signing",
+    "@arkonjs/stream": "workspace:packages/stream",
+    "@arkonjs/tendermint-rpc": "workspace:packages/tendermint-rpc",
+    "@arkonjs/utils": "workspace:packages/utils",
     "cosmjs-types": "^0.4.0",
     "long": "^4.0.0",
     "protobufjs": "~6.10.2",
     "xstream": "^11.14.0"
   },
   "devDependencies": {
-    "@cosmjs/crypto": "workspace:packages/crypto",
+    "@arkonjs/crypto": "workspace:packages/crypto",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/eslint-plugin-prettier": "^3",
     "@types/jasmine": "^3.8",

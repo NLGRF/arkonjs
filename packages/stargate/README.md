@@ -1,6 +1,6 @@
-# @cosmjs/stargate
+# @arkonjs/stargate
 
-[![npm version](https://img.shields.io/npm/v/@cosmjs/stargate.svg)](https://www.npmjs.com/package/@cosmjs/stargate)
+[![npm version](https://img.shields.io/npm/v/@arkonjs/stargate.svg)](https://www.npmjs.com/package/@arkonjs/stargate)
 
 A client library for the Cosmos SDK 0.40.
 
@@ -19,5 +19,5 @@ A client library for the Cosmos SDK 0.40.
 ## License
 
 This package is part of the cosmjs repository, licensed under the Apache License
-2.0 (see [NOTICE](https://github.com/cosmos/cosmjs/blob/main/NOTICE) and
-[LICENSE](https://github.com/cosmos/cosmjs/blob/main/LICENSE)).
+2.0 (see [NOTICE](https://github.com/NLGRF/arkonjs/blob/main/NOTICE) and
+[LICENSE](https://github.com/NLGRF/arkonjs/blob/main/LICENSE)).

@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { AminoMsg, decodeBech32Pubkey, encodeBech32Pubkey } from "@cosmjs/amino";
-import { fromBase64, toBase64 } from "@cosmjs/encoding";
-import { EncodeObject } from "@cosmjs/proto-signing";
-import { assert, assertDefinedAndNotNull, isNonNullObject } from "@cosmjs/utils";
+import { AminoMsg, decodeBech32Pubkey, encodeBech32Pubkey } from "@arkonjs/amino";
+import { fromBase64, toBase64 } from "@arkonjs/encoding";
+import { EncodeObject } from "@arkonjs/proto-signing";
+import { assert, assertDefinedAndNotNull, isNonNullObject } from "@arkonjs/utils";
 import { MsgMultiSend, MsgSend } from "cosmjs-types/cosmos/bank/v1beta1/tx";
 import {
   MsgFundCommunityPool,
@@ -541,7 +541,7 @@ export class AminoTypes {
       throw new Error(
         "Type URL does not exist in the Amino message type register. " +
           "If you need support for this message type, you can pass in additional entries to the AminoTypes constructor. " +
-          "If you think this message type should be included by default, please open an issue at https://github.com/cosmos/cosmjs/issues.",
+          "If you think this message type should be included by default, please open an issue at https://github.com/NLGRF/arkonjs/issues.",
       );
     }
     return {
@@ -556,7 +556,7 @@ export class AminoTypes {
       throw new Error(
         "Type does not exist in the Amino message type register. " +
           "If you need support for this message type, you can pass in additional entries to the AminoTypes constructor. " +
-          "If you think this message type should be included by default, please open an issue at https://github.com/cosmos/cosmjs/issues.",
+          "If you think this message type should be included by default, please open an issue at https://github.com/NLGRF/arkonjs/issues.",
       );
     }
     const [typeUrl, converter] = result;

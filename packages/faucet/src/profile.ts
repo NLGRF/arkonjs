@@ -1,7 +1,7 @@
-import { pathToString } from "@cosmjs/crypto";
-import { Secp256k1HdWallet, SigningCosmosClient } from "@cosmjs/launchpad";
-import { DirectSecp256k1HdWallet, isOfflineDirectSigner, OfflineSigner } from "@cosmjs/proto-signing";
-import { SigningStargateClient } from "@cosmjs/stargate";
+import { pathToString } from "@arkonjs/crypto";
+import { Secp256k1HdWallet, SigningCosmosClient } from "@arkonjs/launchpad";
+import { DirectSecp256k1HdWallet, isOfflineDirectSigner, OfflineSigner } from "@arkonjs/proto-signing";
+import { SigningStargateClient } from "@arkonjs/stargate";
 
 import * as constants from "./constants";
 import { PathBuilder } from "./pathbuilder";

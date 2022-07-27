@@ -1,5 +1,5 @@
 //
-// Standard modules (see tracking issue https://github.com/cosmos/cosmjs/issues/276)
+// Standard modules (see tracking issue https://github.com/NLGRF/arkonjs/issues/276)
 //
 
 export { AuthAccountsResponse, AuthExtension, BaseAccount, setupAuthExtension } from "./auth";

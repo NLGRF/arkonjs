@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { coins, makeSignDoc, makeStdTx, Secp256k1HdWallet } from "@cosmjs/amino";
-import { assert, sleep } from "@cosmjs/utils";
+import { coins, makeSignDoc, makeStdTx, Secp256k1HdWallet } from "@arkonjs/amino";
+import { assert, sleep } from "@arkonjs/utils";
 
 import { CosmosClient, isBroadcastTxFailure } from "./cosmosclient";
 import { LcdClient } from "./lcdapi";

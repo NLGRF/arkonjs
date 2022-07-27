@@ -6,19 +6,19 @@ import {
   makeSignDoc,
   Secp256k1HdWallet,
   serializeSignDoc,
-} from "@cosmjs/amino";
-import { Secp256k1, Secp256k1Signature, sha256 } from "@cosmjs/crypto";
-import { fromBase64 } from "@cosmjs/encoding";
+} from "@arkonjs/amino";
+import { Secp256k1, Secp256k1Signature, sha256 } from "@arkonjs/crypto";
+import { fromBase64 } from "@arkonjs/encoding";
 import {
   assertIsBroadcastTxSuccess as assertIsBroadcastTxSuccessLaunchpad,
   SigningCosmosClient,
-} from "@cosmjs/launchpad";
+} from "@arkonjs/launchpad";
 import {
   assertIsDeliverTxSuccess as assertIsDeliverTxSuccessStargate,
   calculateFee,
   SigningStargateClient,
-} from "@cosmjs/stargate";
-import { sleep } from "@cosmjs/utils";
+} from "@arkonjs/stargate";
+import { sleep } from "@arkonjs/utils";
 import Transport from "@ledgerhq/hw-transport";
 
 import { LedgerSigner } from "./ledgersigner";
